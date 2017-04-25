@@ -13,7 +13,7 @@ import { translationMessages } from '../../../i18n';
 describe('<LocaleToggle />', () => {
   let store;
 
-  before(() => {
+  beforeAll(() => {
     store = configureStore({}, browserHistory);
   });
 

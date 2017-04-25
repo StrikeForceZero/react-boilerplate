@@ -12,7 +12,7 @@ import { translationMessages } from '../../../i18n';
 describe('<LanguageProvider />', () => {
   let store;
 
-  before(() => {
+  beforeAll(() => {
     store = configureStore({}, browserHistory);
   });
 

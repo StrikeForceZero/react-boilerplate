@@ -40,7 +40,7 @@ describe('asyncInjectors', () => {
   let store;
 
   describe('getAsyncInjectors', () => {
-    before(() => {
+    beforeAll(() => {
       store = configureStore({}, createMemoryHistory);
     });
 
@@ -72,7 +72,7 @@ describe('asyncInjectors', () => {
   });
 
   describe('helpers', () => {
-    before(() => {
+    beforeAll(() => {
       store = configureStore({}, createMemoryHistory);
     });
 
